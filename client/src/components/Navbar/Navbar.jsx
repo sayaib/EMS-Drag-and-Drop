@@ -260,21 +260,21 @@ const Navbar = ({ component }) => {
             icon={<ModelTrainingIcon style={{ color: "#1b651370" }} />}
             description="Status"
           />
-          {/* <NavUrl
+          <NavUrl
             url="meter"
             icon={<ElectricMeterIcon style={{ color: "#fc92077b" }} />}
             description="Meters"
-          /> */}
+          />
           <NavUrl
             url="userManagement"
             icon={<ManageAccountsIcon style={{ color: "#f7c5217a" }} />}
             description="User Management"
           />
-          {/* <NavUrl
+          <NavUrl
             url="deviceManagement"
             icon={<PhonelinkSetupIcon style={{ color: "#f77e217b" }} />}
             description="Device Management"
-          /> */}
+          />
           <NavUrl
             url="logManagement"
             icon={<ReceiptLongIcon style={{ color: "#f7c5217a" }} />}
