@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    --margin-xl: 4rem;
+    --margin-lg: 3rem;
+    --margin-md: 2rem;
+    --margin-sm: 1rem;
+    --margin-xs: 0.8rem;
+    --margin-xxs: 0.5rem;
+
+    --padding-xl: 4rem;
+    --padding-lg: 3rem;
+    --padding-md: 2rem;
+    --padding-sm: 1rem;
+    --padding-xs: 0.8rem;
+    --padding-xxs: 0.5rem;
+
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    background: rgb(240, 244, 248);
+}
+
+.App {
+    display: flex;
+
+    /* background-color: #222B45; */
+}
+
+.animationScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #222B45;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+    border-radius: 5px;
+    /* cursor: move;     */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+    background: #ffffff !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000 !important;
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(29, 29, 29) !important;
+}
+
+#toggleOn {
+    display: none;
+}
+
+
+.main-svg {
+    background: rgba(0, 0, 0, 0) !important;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important; */
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    /* border: 1px solid rgba(255, 255, 255, 0.18); */
+    color: white;
+
+}
+
+
+
+/* .bg,
+.groups,
+.legend {
+    background-color: transparent !important;
+} */
+
+#chartColor {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+}
+
+/* table {
+    background-color: transparent !important;
+
+} */
+
+/* .MuiPaper-root {
+    background-color: grey !important;
+} */
+
+
+
+.changeTheme {
+    border-radius: 5px;
+    background-color: #F9F9F9;
+    padding: 2px;
+}
+
+h1 {
+    color: #000;
+}

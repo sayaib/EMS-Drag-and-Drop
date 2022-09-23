@@ -1,0 +1,184 @@
+.loginPage {
+    background-color: #263A4A;
+}
+
+.createNewPassword {
+    background-color: #263A4A;
+}
+
+.resetPassword {
+    background-color: #263A4A;
+}
+
+p {
+    font-size: 13px;
+    text-align: left;
+    color: #6e6a6a;
+}
+
+.main {
+    width: 100%;
+    margin: 0px auto;
+    display: table;
+    height: 100vh;
+}
+
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.content {
+    padding: 1.5rem 0;
+    overflow: hidden;
+    max-width: 355px;
+    width: 100%;
+    background-color: white;
+    animation: zoom 0.5s ease-in;
+    text-align: center;
+    margin: 0px auto;
+    animation: 1s fadeInDown;
+}
+
+.ecilLogoLoginPage {
+    margin-bottom: 1rem;
+    width: 30% !important;
+    /* margin: 1rem 0 !important; */
+
+}
+
+.loginForm {
+    width: 66% !important;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-container {
+    position: relative;
+    margin: 1rem 0;
+
+}
+
+/* .email-container input,
+.pwd-container input {
+    border: none !important;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    padding: 5px 30px 5px 10px;
+    font-size: 20px;
+    outline: none !important;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+} */
+
+.pwd-container {
+    position: relative;
+    margin: 1rem 0;
+}
+
+
+.pwd-container img {
+    cursor: pointer;
+    position: absolute;
+    width: 17px;
+    right: 20px;
+    top: 24px;
+}
+
+#warnings {
+    visibility: hidden;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-top: 10px !important;
+    background-color: rgba(255, 0, 0, 0.158);
+    margin-bottom: 0.5rem;
+    display: flex !important;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.closeIcon {
+    color: red;
+    cursor: pointer;
+}
+
+.checkbox {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#remember {
+    outline: none;
+}
+
+.rememberText {
+    margin-left: -10px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #c1bcbc !important;
+    border: none;
+    /* box-shadow: 0 0 5pt 2pt #D3D3D3 !important; */
+    /* width: 100%; */
+    height: 37px !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+.forgotPwd {
+    text-decoration: none;
+    color: #263A4A;
+}
+
+#footer {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#footer1 {
+    margin: 0;
+    padding: 0 !important;
+    display: flex;
+}
+
+#footer1 img {
+    margin-left: 0.3em;
+    height: 2%;
+    width: 1.5%;
+}
+
+#footer p {
+
+    margin-bottom: 0.5rem;
+    font-size: 11px !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+#footer img {
+    margin-left: 0.3em;
+    height: 2%;
+    width: 7%;
+}
+
+.is_invalid {
+    border: 5px solid red !important;
+}
+
+.form_control {
+    border: 0 !important;
+}
+
+#hi {
+    color: red;
+}

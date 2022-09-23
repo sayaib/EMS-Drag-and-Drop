@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    // border-bottom: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+    top: 0;
+    background: #f0f4f8df;
+
+    z-index: 10;
+
+    svg {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
+.burger_container {
+    display: block;
+    cursor: pointer;
+    padding: 0 0.2rem;
+
+    @media screen and (max-width: 1024px) {
+        display: flex;
+    }
+
+    svg {
+        font-size: 2rem;
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    // float: right;
+    width: 100%;
+    gap: 2rem;
+    // border: 2px solid black;
+
+    @media screen and (max-width: 360px) {
+        justify-content: flex-start;
+        margin-left: 1rem;
+    }
+}
+
+.actionsIcons {
+    width: 25%;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+
+//Icon color
+
+// .paletteIcon {
+//     background: #121FCF;
+//     background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+//     -webkit-background-clip: text;
+//     -webkit-text-fill-color: transparent;
+//     color: red;
+
+// }

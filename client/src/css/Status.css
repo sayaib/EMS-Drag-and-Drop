@@ -1,0 +1,11 @@
+.status_card {
+    text-align: center;
+    /* width: 7rem; */
+    height: 10rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: #cfe5f7da;
+    border-radius: 5px;
+    color: #fff;
+
+}
